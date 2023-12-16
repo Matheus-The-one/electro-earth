@@ -8,7 +8,7 @@
     "start": "node server.js",
     "build": "echo 'No build step needed'",
     "dev": "npm run start",
-    "setup": "npm install init-y && npm install express && npm install three@0.127.0"
+    "setup": "npm install init-y && npm install express && npm install three@0.148.0"
   },
   "keywords": [],
   "author": "",
