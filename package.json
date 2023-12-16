@@ -1,0 +1,20 @@
+{
+  "name": "earth-main",
+  "version": "1.0.0",
+  "description": "1. Clone this repository on your system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "echo 'No build step needed'",
+    "dev": "npm run start",
+    "setup": "npm install init-y && npm install express && npm install three@0.127.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "three": "^0.127.0"
+  }
+}
