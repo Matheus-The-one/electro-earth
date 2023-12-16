@@ -41,8 +41,8 @@ const earthGeometry = new THREE.SphereGeometry(0.6, 32, 32);
 const earthMaterial = new THREE.MeshPhongMaterial({
     roughness: 1,
     metalness: 0,
-    map: THREE.ImageUtils.loadTexture('texture/earthmap1k.jpg'),
-    bumpMap: THREE.ImageUtils.loadTexture('texture/earthbump.jpg'),
+    map: THREE.ImageUtils.loadTexture('./texture/earthmap1k.jpg'),
+    bumpMap: THREE.ImageUtils.loadTexture('./texture/earthbump.jpg'),
     bumpScale: 0.3
 });
 
@@ -55,7 +55,7 @@ const cloudGeometry = new THREE.SphereGeometry(0.63, 32, 32);
 
 // cloud metarial
 const cloudMetarial = new THREE.MeshPhongMaterial({
-    map: THREE.ImageUtils.loadTexture('texture/earthCloud.png'),
+    map: THREE.ImageUtils.loadTexture('./texture/earthCloud.png'),
     transparent: true,
 });
 
@@ -68,7 +68,7 @@ const starGeometry = new THREE.SphereGeometry(80, 64, 64);
 
 // galaxy material
 const starMaterial = new THREE.MeshBasicMaterial({
-    map : THREE.ImageUtils.loadTexture('texture/galaxy.png'),
+    map : THREE.ImageUtils.loadTexture('./texture/galaxy.png'),
     side: THREE.BackSide
 });
 
